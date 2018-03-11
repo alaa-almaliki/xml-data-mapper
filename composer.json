@@ -1,0 +1,22 @@
+{
+  "name": "alaa-almaliki/xml-data-mapper",
+  "type": "php-library",
+  "homepage": "https://gitlab.com/alaa-almaliki/xml-data-mapper",
+  "license": "MIT",
+  "keywords": ["php arrays xml-mapper"],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Xml\\Data\\": "src/"
+    },
+    "files": ["src/Internal/functions.php"]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}

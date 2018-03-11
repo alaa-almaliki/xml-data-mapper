@@ -1,0 +1,31 @@
+<phpunit bootstrap="vendor/autoload.php"
+         backupGlobals="false"
+         verbose="false"
+         syntaxCheck="true"
+         backupStaticAttributes="false"
+         cacheTokens="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <php>
+        <ini name="error_reporting" value="1" />
+    </php>
+    <testsuites>
+        <testsuite name="Xml Data Test">
+            <directory suffix="Test.php">./tests/unit/src/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory>./src/</directory>
+            <exclude>
+                <file>./src/AttributesMapperInterface.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./coverage" lowUpperBound="35" highLowerBound="70"/>
+    </logging>
+</phpunit>

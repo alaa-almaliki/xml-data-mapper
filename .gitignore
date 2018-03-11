@@ -1,0 +1,7 @@
+.idea
+example/resource/*
+vendor
+test.php
+coverage
+composer.lock
+tests/unit/resources/generated.xml

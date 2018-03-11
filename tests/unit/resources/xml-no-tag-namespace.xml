@@ -1,0 +1,45 @@
+<orders>
+<order>
+<order_number>1</order_number>
+<order_date>2018-03-04</order_date>
+<customer_id>123</customer_id>
+<first_name>Alaa</first_name>
+<last_name>Al-Maliki</last_name>
+<lines>
+<line>
+<line_item_id>1</line_item_id>
+<qty_ordered>2</qty_ordered>
+<item_name>Blue Jeans</item_name>
+<item_code>BJ-123</item_code>
+<tax_id>UK1</tax_id>
+<gross_total>12.98</gross_total>
+</line>
+<line>
+<line_item_id>2</line_item_id>
+<qty_ordered>1</qty_ordered>
+<item_name>Small T-shirt</item_name>
+<item_code>SS-456</item_code>
+<tax_id>UK1</tax_id>
+<gross_total>32.56</gross_total>
+</line>
+</lines>
+<billing_address>
+<bill_to>John Doe</bill_to>
+<billing_street>456 Crimson Avenue</billing_street>
+<billing_city>London</billing_city>
+<billing_country>United Kingdom</billing_country>
+<billing_postcode>BQ1 DF2</billing_postcode>
+</billing_address>
+<shipping_address>
+<ship_to>Alaa Al-Maliki</ship_to>
+<shipping_street>123 Wightfield Road</shipping_street>
+<shipping_city>Manachester</shipping_city>
+<shipping_country>United Kingdom</shipping_country>
+<shipping_postcode>AB1 CD2</shipping_postcode>
+</shipping_address>
+<payment>
+<payment_method>by_card</payment_method>
+<amount_paid>45.54</amount_paid>
+</payment>
+</order>
+</orders>
